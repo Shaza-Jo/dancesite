@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Combo&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;box-sizing: border-box;
+}
+#navbar{
+    background-color: black;
+    position: fixed;
+    width: 100%;
+}
+#navbar li a{ 
+    text-decoration: none;
+    display: flex;
+    color: azure;
+    padding: 7px 30px;
+    font-family: 'Combo', cursive;
+    font-size: 18px;
+
+}
+#navbar li a:hover{ 
+    color: grey;
+}
+#navbar li { 
+    list-style: none;
+}   
+
+#navbar ul{ 
+    flex-direction: row;
+    /* justify-content: center; */
+    display: flex;
+
+}
+#introsection {
+    height: 380px;
+    /* background-color: red; */
+    color: white;
+    background: url('/static/bg.jpg') no-repeat center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Combo', cursive;
+    font-size: 3.2rem;
+    font-weight: bold;
+    padding-bottom: 56px;
+    /* opacity: 0.8; */
+}
+#introsection div.small{
+        font-size: 38px;   
+
+}
+#missionsection{
+    /* background: url('/static/bg1.jpg') no-repeat center/cover; */
+    height: 303px;
+    background-color: rgba(176, 176, 68, 0.333);
+} 
+#missionsection h3{
+    text-align: center;
+    padding-top: 25px;
+    font-family: 'Combo', cursive;
+    font-size: 3.2rem;
+}
+.card{
+    border: 2px solid red;
+    border-radius: 10px;
+    width: 30%;
+    height: 186px;
+    margin: 7px 20px;
+    display: inline-block;
+    background-color: aquamarine;
+    
+}
+.card h2{
+    text-align: center;
+    padding: 13px;
+    font-family: 'Combo', cursive;
+}
+.logo img{
+    height: 36px;
+    width: 45px;
+    filter: invert(1);
+    
+}
+.logo{
+    color: azure;
+    display: flex;
+    align-items: center;
+    margin: 0px 13px;
+    font-family: 'Combo', cursive;
+    border: 2px solid rgb(135, 73, 73);
+    border-radius: 57px;
+    padding: 1px 12px;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+    height: 100px;
+    padding: 0px 12px;
+}
+.card-img img{
+    height: inherit;
+}
+.box-content{
+    font-family: 'Combo', cursive;
+    padding: 4px 4px;
+    font-weight: bold;
+}
+#sponsorsection{
+    /* background: url('/static/bg1.jpg') no-repeat center/cover; */
+    height: 220px;
+    background-color: #9985;
+} 
+#sponsorsection h3{
+    text-align: center;
+    padding-top: 2px;
+    font-family: 'Combo', cursive;
+    font-size: 3.2rem;
+}
+#sponsers{
+    height: 100px;
+    max-width: 621px;
+    margin: auto;
+}
+.spimage{
+    height: 75px;
+    margin: 19px;
+}
+
+#footer{
+    
+    background-color: #0c0e0c;
+    height: 32px;
+    padding-top: 7px;
+    text-align: center;
+    color: white;
+    font-family: 'Combo', cursive;
+
+}

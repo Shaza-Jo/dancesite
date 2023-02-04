@@ -1,0 +1,62 @@
+doctype html
+html
+  head
+    title This is my website
+    style
+      include ../static/style.css
+  body
+    nav#navbar  
+        ul 
+            div.logo
+                    img(src="/static/a.gif", alt="loading")
+                    | SJDA
+            li #[a(href='/') Home] 
+            li #[a(href='/') Services] 
+            li #[a(href='/') About Us] 
+            li #[a(href='/') Classes] 
+            li #[a(href='/') Contact Us] 
+
+        
+    section#introsection 
+        div Welcome to Shaza's Dance Academy 
+        div.small Eat dance Sleep Repeat
+
+    section#missionsection
+        h3 Our Mission 
+        div.card 
+            h2 Dance Enthusiast 
+            div.card-box
+                div.card-img
+                    img(src="/static/1.jpg", alt=";oading")
+                div.box-content 
+                    p Lorem ipsum, dolor sit amet consectetur adipisicing.   
+        div.card
+            h2 Be the Best
+            div.card-box
+                div.card-img
+                    img(src="/static/2.jpg", alt=";oading")
+                div.box-content 
+                    p Lorem ipsum, dolor sit amet consectetur adipisicing.   
+
+        div.card
+            h2 Dance Mania   
+            div.card-box
+                div.card-img
+                    img(src="/static/3.jpg", alt=";oading")
+                div.box-content 
+                    p Lorem ipsum, dolor sit amet consectetur adipisicing.   
+            
+        
+
+    section#sponsorsection 
+        h3 Our Sponsers
+            div#sponsers
+                img(src="/static/s1.jpg", alt="Loading", class="spimage")
+                img(src="/static/s2.jpg", alt="Loading", class="spimage")
+                img(src="/static/s3.jpg", alt="Loading", class="spimage")
+                img(src="/static/s4.jpg", alt="Loading", class="spimage")
+    Footer#footer 
+        |Copyright 2022 ShazaJoDanceAcademy.com | All Rights Reserved
+
+    script
+      include ../static/index.js
